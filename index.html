@@ -44,6 +44,15 @@
                     boxShadow: {
                         'soft': '0 20px 40px -15px rgba(0, 0, 0, 0.05)',
                         'card': '0 0 0 1px rgba(0,0,0,0.03), 0 2px 8px rgba(0,0,0,0.04)',
+                    },
+                    animation: {
+                        marquee: 'marquee 40s linear infinite',
+                    },
+                    keyframes: {
+                        marquee: {
+                            '0%': { transform: 'translateX(0)' },
+                            '100%': { transform: 'translateX(-33.333%)' },
+                        }
                     }
                 }
             }
@@ -124,6 +133,72 @@
             </p>
         </div>
     </header>
+
+    <!-- Tech Stack Marquee -->
+    <div class="w-full bg-white border-b border-slate-100 overflow-hidden py-6">
+        <div class="flex w-max animate-marquee">
+            <!-- Original Set -->
+            <div class="flex items-center gap-12 px-6">
+                <span class="text-2xl font-bold text-slate-300 font-eng">GAS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Python</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">TypeScript</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Node.js</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Next.js</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">React</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Supabase</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">SQL</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Docker</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Git</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">HTML/CSS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Tailwind CSS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Selenium</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Pandas</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Slack API</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">LINE API</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">OpenAI API</span>
+            </div>
+            <!-- Duplicate Set for Seamless Loop -->
+            <div class="flex items-center gap-12 px-6">
+                <span class="text-2xl font-bold text-slate-300 font-eng">GAS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Python</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">TypeScript</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Node.js</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Next.js</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">React</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Supabase</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">SQL</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Docker</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Git</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">HTML/CSS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Tailwind CSS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Selenium</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Pandas</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Slack API</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">LINE API</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">OpenAI API</span>
+            </div>
+            <!-- Duplicate Set 2 for Seamless Loop -->
+            <div class="flex items-center gap-12 px-6">
+                <span class="text-2xl font-bold text-slate-300 font-eng">GAS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Python</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">TypeScript</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Node.js</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Next.js</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">React</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Supabase</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">SQL</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Docker</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Git</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">HTML/CSS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Tailwind CSS</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Selenium</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Pandas</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">Slack API</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">LINE API</span>
+                <span class="text-2xl font-bold text-slate-300 font-eng">OpenAI API</span>
+            </div>
+        </div>
+    </div>
 
     <!-- 1. Philosophy -->
     <section id="philosophy" class="py-24 bg-white relative">
