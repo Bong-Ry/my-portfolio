@@ -6,17 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RYUHI KUROKAWA | 業務改善コンサルタント</title>
 
-    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Manrope:wght@400;600;800&display=swap"
         rel="stylesheet">
 
-    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Phosphor Icons -->
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 
     <script>
@@ -81,7 +78,6 @@
 
 <body class="antialiased leading-relaxed tracking-wide text-slate-600 bg-white">
 
-    <!-- Navigation -->
     <nav
         class="fixed top-0 left-0 w-full z-50 transition-all duration-300 bg-white/80 backdrop-blur-md border-b border-slate-100">
         <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
@@ -91,24 +87,21 @@
             </a>
             <div
                 class="hidden md:flex items-center gap-8 text-xs font-bold tracking-wider uppercase text-slate-500 font-eng">
+                <a href="#problem" class="hover:text-brand-600 transition-colors">Concerns</a>
                 <a href="#service" class="hover:text-brand-600 transition-colors">Service</a>
                 <a href="#case-study" class="hover:text-brand-600 transition-colors">Case Study</a>
                 <a href="#price" class="hover:text-brand-600 transition-colors">Price</a>
-                <a href="#work-style" class="hover:text-brand-600 transition-colors">Flow</a>
                 <a href="#profile" class="hover:text-brand-600 transition-colors">Profile</a>
                 <a href="#contact"
                     class="px-4 py-2 bg-slate-900 text-white rounded-full hover:bg-brand-600 transition-colors">Contact</a>
             </div>
-            <!-- Mobile Menu Button (Simple) -->
             <button class="md:hidden text-2xl text-slate-800">
                 <i class="ph ph-list"></i>
             </button>
         </div>
     </nav>
 
-    <!-- Hero Section -->
-    <header class="relative overflow-hidden pt-24 pb-32 md:pt-32 md:pb-40">
-        <!-- Background Decoration -->
+    <header class="relative overflow-hidden pt-32 pb-32 md:pt-40 md:pb-48">
         <div
             class="absolute inset-0 z-0 opacity-30 bg-grid-pattern [mask-image:linear-gradient(to_bottom,white,transparent)]">
         </div>
@@ -118,26 +111,29 @@
             <div
                 class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-slate-50 border border-slate-200 text-slate-600 text-xs font-bold tracking-wider uppercase mb-6 font-eng">
                 <span class="w-2 h-2 rounded-full bg-brand-500"></span>
-                Portfolio
+                Business Improvement Partner
             </div>
-            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-6 leading-tight font-eng tracking-tight">
-                RYUHI KUROKAWA
+            <h1 class="text-4xl md:text-6xl font-bold text-slate-900 mb-8 leading-tight font-eng tracking-tight">
+                「現場の業務」と<br class="md:hidden">「経営の数字」を、<br>
+                <span class="text-brand-600">ITの力</span>でひとつに繋ぐ。
             </h1>
-            <p class="text-xl md:text-2xl text-slate-600 font-medium mb-10">
-                業務改善コンサルタント / フルスタックエンジニア
+            <p class="text-xl md:text-2xl text-slate-600 font-medium mb-10 leading-relaxed">
+                経理実務経験を持つエンジニアが、<br class="md:hidden">
+                あなたの会社の<span class="border-b-2 border-brand-200">「利益体質」</span>を作ります。
             </p>
-            <p class="text-slate-500 max-w-2xl leading-8 text-lg">
-                経理・税務の実務経験を持つエンジニアとして、経営と現場をつなぐシステム開発を提供。<br class="hidden md:block">
-                単なる効率化だけでなく、業務フロー全体の最適化を通じて、<br class="hidden md:block">
-                企業の利益体質強化に貢献します。
-            </p>
+            <div class="flex gap-4">
+                <a href="#contact" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-white transition-all duration-200 bg-brand-600 rounded-full hover:bg-brand-700 hover:shadow-lg hover:-translate-y-1">
+                    無料相談を申し込む
+                </a>
+                <a href="#case-study" class="inline-flex items-center justify-center px-8 py-4 text-base font-bold text-slate-700 transition-all duration-200 bg-white border border-slate-200 rounded-full hover:bg-slate-50 hover:border-slate-300">
+                    事例を見る
+                </a>
+            </div>
         </div>
     </header>
 
-    <!-- Tech Stack Marquee -->
     <div class="w-full bg-white border-b border-slate-100 overflow-hidden py-6">
         <div class="flex w-max animate-marquee">
-            <!-- Original Set -->
             <div class="flex items-center gap-12 px-6">
                 <span class="text-2xl font-bold text-slate-300 font-eng">GAS</span>
                 <span class="text-2xl font-bold text-slate-300 font-eng">Python</span>
@@ -149,15 +145,7 @@
                 <span class="text-2xl font-bold text-slate-300 font-eng">SQL</span>
                 <span class="text-2xl font-bold text-slate-300 font-eng">Docker</span>
                 <span class="text-2xl font-bold text-slate-300 font-eng">Git</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">HTML/CSS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Tailwind CSS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Selenium</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Pandas</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Slack API</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">LINE API</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">OpenAI API</span>
             </div>
-            <!-- Duplicate Set for Seamless Loop -->
             <div class="flex items-center gap-12 px-6">
                 <span class="text-2xl font-bold text-slate-300 font-eng">GAS</span>
                 <span class="text-2xl font-bold text-slate-300 font-eng">Python</span>
@@ -169,144 +157,125 @@
                 <span class="text-2xl font-bold text-slate-300 font-eng">SQL</span>
                 <span class="text-2xl font-bold text-slate-300 font-eng">Docker</span>
                 <span class="text-2xl font-bold text-slate-300 font-eng">Git</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">HTML/CSS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Tailwind CSS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Selenium</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Pandas</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Slack API</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">LINE API</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">OpenAI API</span>
-            </div>
-            <!-- Duplicate Set 2 for Seamless Loop -->
-            <div class="flex items-center gap-12 px-6">
-                <span class="text-2xl font-bold text-slate-300 font-eng">GAS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Python</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">TypeScript</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Node.js</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Next.js</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">React</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Supabase</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">SQL</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Docker</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Git</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">HTML/CSS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Tailwind CSS</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Selenium</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Pandas</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">Slack API</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">LINE API</span>
-                <span class="text-2xl font-bold text-slate-300 font-eng">OpenAI API</span>
             </div>
         </div>
     </div>
 
-    <!-- 1. Philosophy -->
-    <section id="philosophy" class="py-24 bg-white relative">
-        <div class="max-w-5xl mx-auto px-6">
-            <div class="mb-16">
-                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Philosophy</h2>
-                <h3 class="text-3xl md:text-4xl font-bold text-slate-900 leading-snug">
-                    「言われたシステムを作る」<span class="text-brand-600">だけ</span>ではなく、<br>
-                    お客様の<span class="relative inline-block">
-                        <span class="relative z-10">BEST</span>
-                        <span class="absolute bottom-1 left-0 w-full h-3 bg-brand-100 -z-0"></span>
-                    </span>を実現する。
+    <section id="problem" class="py-24 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-4 font-eng">Challenges</h2>
+                <h3 class="text-2xl md:text-3xl font-bold text-slate-900 leading-snug">
+                    エンジニアに<br class="md:hidden">「話が通じない」と<br class="md:hidden">感じたことはありませんか？
                 </h3>
             </div>
 
-            <div class="grid md:grid-cols-12 gap-12 items-start">
-                <div class="md:col-span-5 text-slate-600 leading-8 space-y-6">
-                    <p>
-                        私の仕事は、単にコードを書くことではありません。<br>
-                        3年間の経理・税務実務経験と、エンジニアとしてのスキルを掛け合わせ、お客様のビジネスを前に進めることです。
-                    </p>
-                    <p>
-                        ご要望のシステムを開発することはもちろん、その過程で「もっと効率的な方法はないか」「業務フロー自体に見直すべき点はないか」を常に考え、プロとして＋αの提案を行うことをお約束します。
+            <div class="grid md:grid-cols-2 gap-8 mb-16">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-red-50 text-red-500 rounded-full flex items-center justify-center mb-4">
+                        <i class="ph-fill ph-x text-xl"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-800 mb-3">システムを作ったが、現場で使われない</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        高機能なツールを導入しても、現場の業務フローに合っていなければただの「お荷物」です。使い勝手が考慮されていないことが原因です。
                     </p>
                 </div>
-
-                <div class="md:col-span-7 grid gap-6">
-                    <!-- Feature 1 -->
-                    <div
-                        class="group bg-slate-50 hover:bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-200 transition-all duration-300 hover:shadow-soft">
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="bg-white p-3 rounded-xl shadow-sm text-brand-600 group-hover:scale-110 transition-transform duration-300">
-                                <i class="ph ph-arrows-merge text-2xl"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-800 text-lg mb-2">全体最適の視点</h4>
-                                <p class="text-sm text-slate-500 leading-relaxed">
-                                    部分的な自動化だけでなく、業務フロー全体を俯瞰します。ボトルネックを特定し、システム導入も含めた最も効率的な業務の流れを構築します。
-                                </p>
-                            </div>
-                        </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100">
+                    <div class="w-10 h-10 bg-red-50 text-red-500 rounded-full flex items-center justify-center mb-4">
+                        <i class="ph-fill ph-x text-xl"></i>
                     </div>
+                    <h4 class="font-bold text-slate-800 mb-3">専門用語ばかりで会話にならない</h4>
+                    <p class="text-sm text-slate-600 leading-relaxed">
+                        「APIが…」「DB設計が…」と技術の話ばかりされ、こちらの実現したいビジネスの目的や課題感を汲み取ってもらえないストレス。
+                    </p>
+                </div>
+            </div>
 
-                    <!-- Feature 2 -->
-                    <div
-                        class="group bg-slate-50 hover:bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-200 transition-all duration-300 hover:shadow-soft">
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="bg-white p-3 rounded-xl shadow-sm text-brand-600 group-hover:scale-110 transition-transform duration-300">
-                                <i class="ph ph-hand-heart text-2xl"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-800 text-lg mb-2">現場ファーストの導入支援</h4>
-                                <p class="text-sm text-slate-500 leading-relaxed">
-                                    高機能でも使われなければ意味がありません。ITに不慣れな方でも迷わず使えるUI設計や、運用定着までのサポートを徹底します。
-                                </p>
-                            </div>
-                        </div>
+            <div class="bg-brand-900 text-white p-8 md:p-10 rounded-3xl relative overflow-hidden">
+                <div class="absolute top-0 right-0 -mt-10 -mr-10 w-40 h-40 bg-brand-700 rounded-full blur-3xl opacity-50"></div>
+                <div class="relative z-10 text-center md:text-left md:flex items-center gap-8">
+                    <div class="md:w-3/4">
+                        <h4 class="text-xl font-bold mb-4 text-brand-100">「言われた通り」作るのは、あくまで最低ライン。<br>私の価値は、その先の<span class="text-white border-b border-brand-400">「+αの提案」</span>にあります。</h4>
+                        <p class="text-slate-300 text-sm leading-relaxed">
+                            ご要望のシステムを実装することはもちろん可能です。しかし、それだけでは私の強みを活かしきれません。<br>
+                            「もっと効率的な方法はないか？」「この業務フロー自体をなくせないか？」<br>
+                            常に経営者の視点で考え、ビジネスを加速させる<strong>「期待以上」</strong>の成果をお約束します。
+                        </p>
                     </div>
-
-                    <!-- Feature 3 -->
-                    <div
-                        class="group bg-slate-50 hover:bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-200 transition-all duration-300 hover:shadow-soft">
-                        <div class="flex items-start gap-5">
-                            <div
-                                class="bg-white p-3 rounded-xl shadow-sm text-brand-600 group-hover:scale-110 transition-transform duration-300">
-                                <i class="ph ph-chats-circle text-2xl"></i>
-                            </div>
-                            <div>
-                                <h4 class="font-bold text-slate-800 text-lg mb-2">実務理解によるスムーズな連携</h4>
-                                <p class="text-sm text-slate-500 leading-relaxed">
-                                    経理・税務の実務経験があるため、専門的な業務内容も即座に理解可能。「エンジニアに話が通じない」というストレスを感じさせません。
-                                </p>
-                            </div>
-                        </div>
+                    <div class="mt-8 md:mt-0 md:w-1/4 flex justify-center">
+                         <i class="ph-duotone ph-rocket-launch text-6xl text-brand-400"></i>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 2. Services -->
+    <section id="philosophy" class="py-24 bg-white relative">
+        <div class="max-w-5xl mx-auto px-6">
+            <div class="mb-16">
+                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Philosophy</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-slate-900 leading-snug">
+                    お客様の<span class="relative inline-block">
+                        <span class="relative z-10">BEST</span>
+                        <span class="absolute bottom-1 left-0 w-full h-3 bg-brand-100 -z-0"></span>
+                    </span>を実現する<br>
+                    3つのアプローチ
+                </h3>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="group bg-slate-50 hover:bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-200 transition-all duration-300 hover:shadow-soft">
+                    <div class="bg-white w-12 h-12 flex items-center justify-center rounded-xl shadow-sm text-brand-600 mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ph ph-arrows-merge text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-800 text-lg mb-3">全体最適の視点</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed">
+                        部分的な自動化だけでなく、業務フロー全体を俯瞰します。ボトルネックを特定し、システム導入も含めた最も効率的な業務の流れを構築します。
+                    </p>
+                </div>
+
+                <div class="group bg-slate-50 hover:bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-200 transition-all duration-300 hover:shadow-soft">
+                    <div class="bg-white w-12 h-12 flex items-center justify-center rounded-xl shadow-sm text-brand-600 mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ph ph-hand-heart text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-800 text-lg mb-3">現場ファースト</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed">
+                        高機能でも使われなければ意味がありません。ITに不慣れな方でも迷わず使えるUI設計や、運用定着までのサポートを徹底します。
+                    </p>
+                </div>
+
+                <div class="group bg-slate-50 hover:bg-white p-6 rounded-2xl border border-slate-100 hover:border-brand-200 transition-all duration-300 hover:shadow-soft">
+                    <div class="bg-white w-12 h-12 flex items-center justify-center rounded-xl shadow-sm text-brand-600 mb-4 group-hover:scale-110 transition-transform duration-300">
+                        <i class="ph ph-chats-circle text-2xl"></i>
+                    </div>
+                    <h4 class="font-bold text-slate-800 text-lg mb-3">経理×エンジニア</h4>
+                    <p class="text-sm text-slate-500 leading-relaxed">
+                        経理・税務の実務経験があるため、専門的な業務内容も即座に理解可能。「エンジニアに話が通じない」というストレスを感じさせません。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <section id="service" class="py-24 bg-slate-50">
         <div class="max-w-6xl mx-auto px-6">
             <div class="max-w-2xl mb-16">
-                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Service & Skills
-                </h2>
-                <p class="text-3xl font-bold text-slate-900 mb-6">4つの得意領域</p>
+                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Service & Skills</h2>
+                <p class="text-3xl font-bold text-slate-900 mb-6">課題に応じた4つの解決策</p>
                 <p class="text-slate-500">
-                    課題の規模やご予算、将来の拡張性に合わせて、最適な技術スタックを選定・提案します。
+                    小規模な自動化から本格的なシステム開発まで、ご予算とフェーズに合わせて最適な技術を選定します。
                 </p>
             </div>
 
             <div class="grid md:grid-cols-2 gap-6">
-                <!-- Service 1: GAS -->
-                <div
-                    class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border border-transparent hover:border-green-100 group">
+                <div class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border border-transparent hover:border-green-100 group">
                     <div class="flex justify-between items-start mb-6">
-                        <div
-                            class="w-12 h-12 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <div class="w-12 h-12 bg-green-50 text-green-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                             <i class="ph ph-google-logo text-2xl"></i>
                         </div>
-                        <span
-                            class="text-[10px] font-bold tracking-wider text-slate-400 border border-slate-100 px-3 py-1 rounded-full uppercase">Automation</span>
+                        <span class="text-[10px] font-bold tracking-wider text-slate-400 border border-slate-100 px-3 py-1 rounded-full uppercase">Automation</span>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-green-700 transition-colors">
-                        Google Workspace 自動化</h3>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-green-700 transition-colors">Google Workspace 自動化</h3>
                     <p class="text-slate-600 text-sm mb-6 leading-relaxed">
                         Gmailやスプレッドシートなど、普段お使いのツールを連携させ、定型業務を自動化します。サーバー代がかからず、低コストで即効性があります。
                     </p>
@@ -314,21 +283,14 @@
                         <p class="text-xs text-slate-400 font-mono">Google Apps Script (GAS) / TypeScript</p>
                     </div>
                 </div>
-
-                <!-- Service 2: Python -->
-                <div
-                    class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border border-transparent hover:border-yellow-100 group">
+                <div class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border border-transparent hover:border-yellow-100 group">
                     <div class="flex justify-between items-start mb-6">
-                        <div
-                            class="w-12 h-12 bg-yellow-50 text-yellow-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <div class="w-12 h-12 bg-yellow-50 text-yellow-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                             <i class="ph ph-database text-2xl"></i>
                         </div>
-                        <span
-                            class="text-[10px] font-bold tracking-wider text-slate-400 border border-slate-100 px-3 py-1 rounded-full uppercase">Data
-                            Processing</span>
+                        <span class="text-[10px] font-bold tracking-wider text-slate-400 border border-slate-100 px-3 py-1 rounded-full uppercase">Data Processing</span>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-yellow-700 transition-colors">
-                        データ収集・分析自動化</h3>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-yellow-700 transition-colors">データ収集・分析自動化</h3>
                     <p class="text-slate-600 text-sm mb-6 leading-relaxed">
                         数万件のデータ処理やWebサイトからの情報収集（スクレイピング）など、手作業では不可能な規模の作業を代行するプログラムを構築します。
                     </p>
@@ -336,20 +298,14 @@
                         <p class="text-xs text-slate-400 font-mono">Python (Pandas, Selenium)</p>
                     </div>
                 </div>
-
-                <!-- Service 3: Node.js / AI -->
-                <div
-                    class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border-2 border-brand-50 hover:border-purple-100 group relative overflow-hidden">
+                <div class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border-2 border-brand-50 hover:border-purple-100 group relative overflow-hidden">
                     <div class="flex justify-between items-start mb-6 relative z-10">
-                        <div
-                            class="w-12 h-12 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <div class="w-12 h-12 bg-purple-50 text-purple-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                             <i class="ph ph-robot text-2xl"></i>
                         </div>
-                        <span
-                            class="text-[10px] font-bold tracking-wider text-white bg-slate-900 px-3 py-1 rounded-full uppercase shadow-lg">Recommend</span>
+                        <span class="text-[10px] font-bold tracking-wider text-white bg-slate-900 px-3 py-1 rounded-full uppercase shadow-lg">Recommend</span>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-purple-700 transition-colors">
-                        AI活用・ナレッジシステム</h3>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-purple-700 transition-colors">AI活用・ナレッジシステム</h3>
                     <p class="text-slate-600 text-sm mb-6 leading-relaxed">
                         社内規定や過去の履歴をAIに学習させ、質問に自動回答するシステムなどを構築。DX推進や属人化の解消に最適なソリューションです。
                     </p>
@@ -357,21 +313,14 @@
                         <p class="text-xs text-slate-400 font-mono">Node.js / OpenAI API / Vector DB</p>
                     </div>
                 </div>
-
-                <!-- Service 4: Next.js -->
-                <div
-                    class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border border-transparent hover:border-blue-100 group">
+                <div class="bg-white p-8 rounded-3xl shadow-card hover:shadow-soft transition-all duration-300 border border-transparent hover:border-blue-100 group">
                     <div class="flex justify-between items-start mb-6">
-                        <div
-                            class="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
+                        <div class="w-12 h-12 bg-blue-50 text-blue-600 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform">
                             <i class="ph ph-browsers text-2xl"></i>
                         </div>
-                        <span
-                            class="text-[10px] font-bold tracking-wider text-slate-400 border border-slate-100 px-3 py-1 rounded-full uppercase">Web
-                            Application</span>
+                        <span class="text-[10px] font-bold tracking-wider text-slate-400 border border-slate-100 px-3 py-1 rounded-full uppercase">Web Application</span>
                     </div>
-                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-blue-700 transition-colors">
-                        Webアプリケーション開発</h3>
+                    <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-blue-700 transition-colors">Webアプリケーション開発</h3>
                     <p class="text-slate-600 text-sm mb-6 leading-relaxed">
                         Excel管理の限界を超えた、御社専用の業務システムを開発。スマホ対応や高速な動作で、現場の業務効率を劇的に向上させます。
                     </p>
@@ -383,32 +332,21 @@
         </div>
     </section>
 
-    <!-- 3. Case Study -->
     <section id="case-study" class="py-24 bg-white">
         <div class="max-w-5xl mx-auto px-6">
             <div class="mb-12">
                 <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Case Study</h2>
                 <p class="text-3xl font-bold text-slate-900">構築事例と導入効果</p>
             </div>
-
             <div class="space-y-8">
-
-                <!-- Case 1 -->
-                <div
-                    class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
+                <div class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
                     <div class="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
-                        <!-- Left: Text & Effects -->
                         <div class="md:col-span-5 flex flex-col justify-center">
-                            <span
-                                class="inline-block w-fit bg-green-50 text-green-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Automated
-                                (GAS)</span>
-                            <h3
-                                class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">
-                                請求書発行の完全自動化</h3>
+                            <span class="inline-block w-fit bg-green-50 text-green-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Automated (GAS)</span>
+                            <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">請求書発行の完全自動化</h3>
                             <p class="text-slate-500 text-sm leading-6 mb-6">
                                 手作業でのPDF作成とメール送信を自動化。誤送信リスクと作業負荷を解消。
                             </p>
-                            <!-- Effects (Moved to Left) -->
                             <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
                                 <div class="space-y-4">
                                     <div>
@@ -440,13 +378,10 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Right: Visual Evidence -->
                         <div class="md:col-span-7">
-                            <div
-                                class="bg-slate-50 rounded-lg p-6 border border-slate-100 shadow-sm relative overflow-hidden group-hover:shadow-md transition-shadow h-full flex flex-col justify-center">
+                            <div class="bg-slate-50 rounded-lg p-6 border border-slate-100 shadow-sm relative overflow-hidden group-hover:shadow-md transition-shadow h-full flex flex-col justify-center">
                                 <div class="flex items-center gap-3 mb-4">
-                                    <div
-                                        class="w-10 h-10 rounded-lg bg-[#00B900] flex items-center justify-center text-white shadow-sm">
+                                    <div class="w-10 h-10 rounded-lg bg-[#00B900] flex items-center justify-center text-white shadow-sm">
                                         <i class="ph-fill ph-chat-circle-dots text-xl"></i>
                                     </div>
                                     <div>
@@ -454,11 +389,8 @@
                                         <div class="text-[10px] text-slate-400">10:00 AM</div>
                                     </div>
                                 </div>
-                                <div
-                                    class="bg-white rounded-xl p-4 text-sm text-slate-600 border border-slate-100 relative shadow-sm">
-                                    <div
-                                        class="absolute left-[-6px] top-4 w-3 h-3 bg-white border-l border-b border-slate-100 transform rotate-45">
-                                    </div>
+                                <div class="bg-white rounded-xl p-4 text-sm text-slate-600 border border-slate-100 relative shadow-sm">
+                                    <div class="absolute left-[-6px] top-4 w-3 h-3 bg-white border-l border-b border-slate-100 transform rotate-45"></div>
                                     <p class="font-bold text-slate-800 mb-2 flex items-center gap-2">
                                         <i class="ph-fill ph-check-circle text-green-500"></i> 発行処理が完了しました
                                     </p>
@@ -469,8 +401,7 @@
                                         <div class="flex justify-between border-b border-slate-200 pb-1">
                                             <span>エラー</span> <span class="font-mono font-bold text-green-600">0件</span>
                                         </div>
-                                        <div class="flex justify-between"><span>所要時間</span> <span
-                                                class="font-mono font-bold">45秒</span></div>
+                                        <div class="flex justify-between"><span>所要時間</span> <span class="font-mono font-bold">45秒</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -478,22 +409,14 @@
                     </div>
                 </div>
 
-                <!-- Case 2 -->
-                <div
-                    class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
+                <div class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
                     <div class="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
-                        <!-- Left: Text & Effects -->
                         <div class="md:col-span-5 flex flex-col justify-center">
-                            <span
-                                class="inline-block w-fit bg-yellow-50 text-yellow-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Python
-                                Script</span>
-                            <h3
-                                class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">
-                                在庫・価格監視ツール</h3>
+                            <span class="inline-block w-fit bg-yellow-50 text-yellow-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Python Script</span>
+                            <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">在庫・価格監視ツール</h3>
                             <p class="text-slate-500 text-sm leading-6 mb-6">
                                 仕入先サイトの巡回を自動化。在庫切れによる機会損失を防ぎ、更新作業をゼロに。
                             </p>
-                            <!-- Effects (Moved to Left) -->
                             <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
                                 <div class="space-y-4">
                                     <div>
@@ -525,10 +448,8 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Right: Visual Evidence -->
                         <div class="md:col-span-7">
-                            <div
-                                class="bg-white rounded-lg border border-slate-200 overflow-hidden text-xs shadow-sm group-hover:shadow-md transition-shadow">
+                            <div class="bg-white rounded-lg border border-slate-200 overflow-hidden text-xs shadow-sm group-hover:shadow-md transition-shadow">
                                 <div class="bg-slate-50 border-b border-slate-200 px-4 py-3 flex gap-2">
                                     <div class="w-2.5 h-2.5 rounded-full bg-red-400"></div>
                                     <div class="w-2.5 h-2.5 rounded-full bg-yellow-400"></div>
@@ -548,25 +469,19 @@
                                             <td class="p-3 font-mono">A-001</td>
                                             <td class="p-3">ワイヤレスマウス</td>
                                             <td class="p-3">24</td>
-                                            <td class="p-3"><span
-                                                    class="bg-green-100 text-green-700 px-2 py-1 rounded text-[10px] font-bold">OK</span>
-                                            </td>
+                                            <td class="p-3"><span class="bg-green-100 text-green-700 px-2 py-1 rounded text-[10px] font-bold">OK</span></td>
                                         </tr>
                                         <tr class="bg-red-50/50">
                                             <td class="p-3 font-mono">A-002</td>
                                             <td class="p-3 font-bold text-slate-800">キーボードPro</td>
                                             <td class="p-3 font-bold text-red-600">0</td>
-                                            <td class="p-3"><span
-                                                    class="bg-red-100 text-red-700 px-2 py-1 rounded text-[10px] font-bold animate-pulse">在庫切れ</span>
-                                            </td>
+                                            <td class="p-3"><span class="bg-red-100 text-red-700 px-2 py-1 rounded text-[10px] font-bold animate-pulse">在庫切れ</span></td>
                                         </tr>
                                         <tr>
                                             <td class="p-3 font-mono">A-003</td>
                                             <td class="p-3">モニター 27inch</td>
                                             <td class="p-3">5</td>
-                                            <td class="p-3"><span
-                                                    class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded text-[10px] font-bold">残り僅か</span>
-                                            </td>
+                                            <td class="p-3"><span class="bg-yellow-100 text-yellow-700 px-2 py-1 rounded text-[10px] font-bold">残り僅か</span></td>
                                         </tr>
                                     </tbody>
                                 </table>
@@ -575,22 +490,14 @@
                     </div>
                 </div>
 
-                <!-- Case 3 -->
-                <div
-                    class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
+                <div class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
                     <div class="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
-                        <!-- Left: Text & Effects -->
                         <div class="md:col-span-5 flex flex-col justify-center">
-                            <span
-                                class="inline-block w-fit bg-purple-50 text-purple-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">AI
-                                x Node.js App</span>
-                            <h3
-                                class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">
-                                EC出品支援・商品データ自動生成</h3>
+                            <span class="inline-block w-fit bg-purple-50 text-purple-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">AI x Node.js App</span>
+                            <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">EC出品支援・商品データ自動生成</h3>
                             <p class="text-slate-500 text-sm leading-6 mb-6">
                                 商品画像をAI解析し、英語の商品名・スペック・説明文を自動生成。eBayへの出品作業を劇的に効率化。
                             </p>
-                            <!-- Effects (Moved to Left) -->
                             <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
                                 <div class="space-y-4">
                                     <div>
@@ -622,54 +529,41 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Right: Visual Evidence -->
                         <div class="md:col-span-7">
                             <div class="bg-white rounded-lg border border-slate-200 shadow-sm overflow-hidden">
-                                <!-- Header -->
-                                <div
-                                    class="bg-slate-50 border-b border-slate-200 px-4 py-3 flex justify-between items-center">
+                                <div class="bg-slate-50 border-b border-slate-200 px-4 py-3 flex justify-between items-center">
                                     <div class="text-xs font-bold text-slate-600">New Listing</div>
                                     <div class="bg-brand-600 text-white text-[10px] px-3 py-1 rounded">Export CSV</div>
                                 </div>
                                 <div class="p-4 grid grid-cols-3 gap-4">
-                                    <!-- Image Area -->
                                     <div class="col-span-1">
-                                        <div
-                                            class="aspect-square bg-slate-100 rounded flex items-center justify-center border border-slate-200 mb-2">
+                                        <div class="aspect-square bg-slate-100 rounded flex items-center justify-center border border-slate-200 mb-2">
                                             <i class="ph ph-camera text-3xl text-slate-300"></i>
                                         </div>
-                                        <div
-                                            class="text-[10px] text-center text-green-600 font-bold flex items-center justify-center gap-1">
+                                        <div class="text-[10px] text-center text-green-600 font-bold flex items-center justify-center gap-1">
                                             <i class="ph-fill ph-check-circle"></i> Analyzed
                                         </div>
                                     </div>
-                                    <!-- Form Area -->
                                     <div class="col-span-2 space-y-3">
                                         <div>
                                             <div class="text-[10px] text-slate-400 mb-1">Product Name (EN)</div>
-                                            <div
-                                                class="text-xs font-bold text-slate-800 bg-slate-50 p-2 rounded border border-slate-100">
+                                            <div class="text-xs font-bold text-slate-800 bg-slate-50 p-2 rounded border border-slate-100">
                                                 Canon EOS 5D Mark IV Body [Excellent]
                                             </div>
                                         </div>
                                         <div class="grid grid-cols-2 gap-3">
                                             <div>
                                                 <div class="text-[10px] text-slate-400 mb-1">Brand</div>
-                                                <div
-                                                    class="text-xs text-slate-800 bg-slate-50 p-2 rounded border border-slate-100">
-                                                    Canon</div>
+                                                <div class="text-xs text-slate-800 bg-slate-50 p-2 rounded border border-slate-100">Canon</div>
                                             </div>
                                             <div>
                                                 <div class="text-[10px] text-slate-400 mb-1">Condition</div>
-                                                <div
-                                                    class="text-xs text-slate-800 bg-slate-50 p-2 rounded border border-slate-100">
-                                                    Used</div>
+                                                <div class="text-xs text-slate-800 bg-slate-50 p-2 rounded border border-slate-100">Used</div>
                                             </div>
                                         </div>
                                         <div>
                                             <div class="text-[10px] text-slate-400 mb-1">Description</div>
-                                            <div
-                                                class="text-[10px] text-slate-500 bg-slate-50 p-2 rounded border border-slate-100 h-10 overflow-hidden leading-tight">
+                                            <div class="text-[10px] text-slate-500 bg-slate-50 p-2 rounded border border-slate-100 h-10 overflow-hidden leading-tight">
                                                 This is a pre-owned item in excellent condition. Shutter count is low...
                                             </div>
                                         </div>
@@ -680,22 +574,14 @@
                     </div>
                 </div>
 
-                <!-- Case 4 -->
-                <div
-                    class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
+                <div class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
                     <div class="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
-                        <!-- Left: Text & Effects -->
                         <div class="md:col-span-5 flex flex-col justify-center">
-                            <span
-                                class="inline-block w-fit bg-purple-50 text-purple-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">AI
-                                Solution</span>
-                            <h3
-                                class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">
-                                社内規定・マニュアル回答AI</h3>
+                            <span class="inline-block w-fit bg-purple-50 text-purple-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">AI Solution</span>
+                            <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">社内規定・マニュアル回答AI</h3>
                             <p class="text-slate-500 text-sm leading-6 mb-6">
                                 総務・経理への定型問い合わせをAIが即答。担当者の負担減と回答待ち時間の解消。
                             </p>
-                            <!-- Effects (Moved to Left) -->
                             <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
                                 <div class="space-y-4">
                                     <div>
@@ -713,8 +599,7 @@
                                     </div>
                                     <div>
                                         <div class="flex justify-between items-end mb-1">
-                                            <span class="text-xs text-slate-400 font-bold uppercase">Response
-                                                Time</span>
+                                            <span class="text-xs text-slate-400 font-bold uppercase">Response Time</span>
                                             <div class="flex items-baseline gap-2">
                                                 <span class="text-slate-400 text-xs">数時間</span>
                                                 <i class="ph ph-arrow-right text-brand-400 text-[10px]"></i>
@@ -728,28 +613,20 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Right: Visual Evidence -->
                         <div class="md:col-span-7">
-                            <div
-                                class="bg-slate-100 rounded-xl p-6 border border-slate-200 shadow-inner h-full flex flex-col justify-center">
+                            <div class="bg-slate-100 rounded-xl p-6 border border-slate-200 shadow-inner h-full flex flex-col justify-center">
                                 <div class="space-y-4">
-                                    <!-- User Message -->
                                     <div class="flex justify-end">
-                                        <div
-                                            class="bg-brand-600 text-white text-sm py-2 px-4 rounded-l-xl rounded-tr-xl shadow-sm max-w-[85%]">
+                                        <div class="bg-brand-600 text-white text-sm py-2 px-4 rounded-l-xl rounded-tr-xl shadow-sm max-w-[85%]">
                                             交通費の申請期限はいつまで？
                                         </div>
                                     </div>
-                                    <!-- AI Message -->
                                     <div class="flex justify-start items-start gap-3">
-                                        <div
-                                            class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-brand-600 shrink-0 shadow-sm">
+                                        <div class="w-8 h-8 rounded-full bg-white border border-slate-200 flex items-center justify-center text-brand-600 shrink-0 shadow-sm">
                                             <i class="ph-fill ph-sparkle text-lg"></i>
                                         </div>
-                                        <div
-                                            class="bg-white text-slate-600 text-sm py-3 px-4 rounded-r-xl rounded-tl-xl shadow-sm border border-slate-100 max-w-[90%]">
-                                            <p class="mb-2">交通費の申請期限は<span
-                                                    class="font-bold text-brand-600">毎月3営業日</span>までです。</p>
+                                        <div class="bg-white text-slate-600 text-sm py-3 px-4 rounded-r-xl rounded-tl-xl shadow-sm border border-slate-100 max-w-[90%]">
+                                            <p class="mb-2">交通費の申請期限は<span class="font-bold text-brand-600">毎月3営業日</span>までです。</p>
                                             <p class="text-xs text-slate-400">規定：第4章 経費精算 第12条</p>
                                         </div>
                                     </div>
@@ -759,22 +636,14 @@
                     </div>
                 </div>
 
-                <!-- Case 5 -->
-                <div
-                    class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
+                <div class="group bg-white border border-slate-200 rounded-2xl p-6 md:p-8 hover:border-brand-300 transition-all duration-300 hover:shadow-lg hover:shadow-brand-500/5">
                     <div class="grid md:grid-cols-12 gap-8 md:gap-12 items-center">
-                        <!-- Left: Text & Effects -->
                         <div class="md:col-span-5 flex flex-col justify-center">
-                            <span
-                                class="inline-block w-fit bg-blue-50 text-blue-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Web
-                                App</span>
-                            <h3
-                                class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">
-                                案件・工事進捗管理システム</h3>
+                            <span class="inline-block w-fit bg-blue-50 text-blue-700 text-[10px] font-bold px-3 py-1 rounded-full mb-3 uppercase tracking-wider">Web App</span>
+                            <h3 class="text-xl font-bold text-slate-800 mb-3 group-hover:text-brand-600 transition-colors">案件・工事進捗管理システム</h3>
                             <p class="text-slate-500 text-sm leading-6 mb-6">
                                 重いExcel管理からWebアプリへ移行。スマホで現場からサクサク報告可能に。
                             </p>
-                            <!-- Effects (Moved to Left) -->
                             <div class="bg-slate-50 rounded-xl p-5 border border-slate-100">
                                 <div class="space-y-4">
                                     <div>
@@ -792,8 +661,7 @@
                                     </div>
                                     <div>
                                         <div class="flex justify-between items-end mb-1">
-                                            <span class="text-xs text-slate-400 font-bold uppercase">Reporting
-                                                Rate</span>
+                                            <span class="text-xs text-slate-400 font-bold uppercase">Reporting Rate</span>
                                             <div class="flex items-baseline gap-2">
                                                 <span class="text-slate-400 line-through text-xs">40%</span>
                                                 <i class="ph ph-arrow-right text-brand-400 text-[10px]"></i>
@@ -807,24 +675,19 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- Right: Visual Evidence -->
                         <div class="md:col-span-7">
-                            <div
-                                class="bg-slate-900 rounded-lg p-2 shadow-xl overflow-hidden group-hover:scale-[1.02] transition-transform duration-300">
+                            <div class="bg-slate-900 rounded-lg p-2 shadow-xl overflow-hidden group-hover:scale-[1.02] transition-transform duration-300">
                                 <div class="bg-slate-800 rounded-t flex items-center gap-1.5 px-3 py-2 mb-1">
                                     <div class="w-2 h-2 rounded-full bg-red-500"></div>
                                     <div class="w-2 h-2 rounded-full bg-yellow-500"></div>
                                     <div class="w-2 h-2 rounded-full bg-green-500"></div>
                                 </div>
                                 <div class="bg-slate-50 rounded p-3 grid grid-cols-2 gap-3">
-                                    <!-- Widget 1 -->
                                     <div class="bg-white p-3 rounded shadow-sm border border-slate-100">
-                                        <div class="text-[10px] text-slate-400 uppercase font-bold mb-1">Total Projects
-                                        </div>
+                                        <div class="text-[10px] text-slate-400 uppercase font-bold mb-1">Total Projects</div>
                                         <div class="text-2xl font-bold text-slate-800 leading-none">124</div>
                                         <div class="text-[10px] text-green-500 font-bold mt-1">↑ 12% vs last month</div>
                                     </div>
-                                    <!-- Widget 2 -->
                                     <div class="bg-white p-3 rounded shadow-sm border border-slate-100">
                                         <div class="text-[10px] text-slate-400 uppercase font-bold mb-1">Progress</div>
                                         <div class="w-full bg-slate-100 rounded-full h-2 mb-2">
@@ -832,10 +695,8 @@
                                         </div>
                                         <div class="text-[10px] text-slate-500 text-right">75% Complete</div>
                                     </div>
-                                    <!-- List -->
                                     <div class="col-span-2 bg-white rounded shadow-sm border border-slate-100 p-3">
-                                        <div
-                                            class="flex items-center justify-between mb-3 border-b border-slate-50 pb-2">
+                                        <div class="flex items-center justify-between mb-3 border-b border-slate-50 pb-2">
                                             <div class="text-[10px] font-bold text-slate-700">Recent Reports</div>
                                             <div class="text-[10px] text-brand-500">View All</div>
                                         </div>
@@ -857,26 +718,19 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
-    <!-- 4. Work Style -->
     <section id="work-style" class="py-24 bg-slate-900 text-white border-t border-slate-800">
         <div class="max-w-4xl mx-auto px-6">
             <h2 class="text-sm font-bold text-brand-400 tracking-widest uppercase mb-2 font-eng">Work Style</h2>
             <p class="text-3xl font-bold mb-16">ビジネスパートナーとして伴走します</p>
-
             <div class="space-y-12">
                 <div class="flex gap-8 relative">
-                    <!-- Connector Line -->
                     <div class="absolute left-[19px] top-12 bottom-[-48px] w-0.5 bg-slate-800"></div>
-
                     <div class="flex flex-col items-center flex-shrink-0">
-                        <div
-                            class="w-10 h-10 rounded-full bg-brand-600 text-white flex items-center justify-center font-bold text-lg shadow-[0_0_15px_rgba(2,132,199,0.5)]">
-                            1</div>
+                        <div class="w-10 h-10 rounded-full bg-brand-600 text-white flex items-center justify-center font-bold text-lg shadow-[0_0_15px_rgba(2,132,199,0.5)]">1</div>
                     </div>
                     <div>
                         <h3 class="text-xl font-bold text-white mb-3">ヒアリング・要件定義</h3>
@@ -886,15 +740,10 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="flex gap-8 relative">
-                    <!-- Connector Line -->
                     <div class="absolute left-[19px] top-12 bottom-[-48px] w-0.5 bg-slate-800"></div>
-
                     <div class="flex flex-col items-center flex-shrink-0">
-                        <div
-                            class="w-10 h-10 rounded-full bg-slate-800 text-brand-400 border border-slate-700 flex items-center justify-center font-bold text-lg">
-                            2</div>
+                        <div class="w-10 h-10 rounded-full bg-slate-800 text-brand-400 border border-slate-700 flex items-center justify-center font-bold text-lg">2</div>
                     </div>
                     <div>
                         <h3 class="text-xl font-bold text-white mb-3">プロトタイピング・開発</h3>
@@ -903,12 +752,9 @@
                         </p>
                     </div>
                 </div>
-
                 <div class="flex gap-8">
                     <div class="flex flex-col items-center flex-shrink-0">
-                        <div
-                            class="w-10 h-10 rounded-full bg-slate-800 text-brand-400 border border-slate-700 flex items-center justify-center font-bold text-lg">
-                            3</div>
+                        <div class="w-10 h-10 rounded-full bg-slate-800 text-brand-400 border border-slate-700 flex items-center justify-center font-bold text-lg">3</div>
                     </div>
                     <div>
                         <h3 class="text-xl font-bold text-white mb-3">運用・定着支援</h3>
@@ -921,29 +767,23 @@
         </div>
     </section>
 
-
-    <!-- 5. Pricing -->
     <section id="price" class="py-24 bg-slate-50">
         <div class="max-w-5xl mx-auto px-6">
             <div class="mb-16 text-center">
-                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Price & Delivery
-                </h2>
+                <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Price & Delivery</h2>
                 <p class="text-3xl font-bold text-slate-900 mb-4">料金・納期の目安</p>
                 <p class="text-slate-500 text-sm">
                     ※あくまで参考価格です。要件により変動しますので、まずはお気軽にご相談ください。<br>
                     個人だからこその「圧倒的なコストパフォーマンス」と、スピード感のある納品をお約束します。
                 </p>
             </div>
-
             <div class="grid md:grid-cols-3 gap-8">
-                <!-- Plan 1 -->
-                <div
-                    class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 relative overflow-hidden group hover:border-brand-200 transition-colors">
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 relative overflow-hidden group hover:border-brand-200 transition-colors">
                     <div class="absolute top-0 left-0 w-full h-1 bg-green-500"></div>
                     <h3 class="font-bold text-slate-800 text-lg mb-2">スポット自動化</h3>
                     <p class="text-xs text-slate-400 mb-6">GAS / Excelマクロ / バグ修正</p>
                     <div class="mb-6">
-                        <span class="text-3xl font-bold text-slate-900 font-eng">5,000</span>
+                        <span class="text-3xl font-bold text-slate-900 font-eng">30,000</span>
                         <span class="text-sm text-slate-500 font-bold">円〜</span>
                     </div>
                     <div class="flex items-center gap-2 text-sm text-slate-600 bg-slate-50 rounded-lg p-3 mb-6">
@@ -951,29 +791,18 @@
                         <span class="font-bold">納期目安: 3日〜</span>
                     </div>
                     <ul class="space-y-3 text-sm text-slate-500 mb-8">
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-green-500 mt-0.5"></i>
-                            <span>Google Workspace連携</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-green-500 mt-0.5"></i>
-                            <span>既存ツールの修正</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-green-500 mt-0.5"></i>
-                            <span>チャットボット作成</span>
-                        </li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-green-500 mt-0.5"></i><span>Google Workspace連携</span></li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-green-500 mt-0.5"></i><span>既存ツールの修正</span></li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-green-500 mt-0.5"></i><span>チャットボット作成</span></li>
                     </ul>
                 </div>
-
-                <!-- Plan 2 -->
-                <div
-                    class="bg-white rounded-2xl p-8 shadow-lg border border-brand-100 relative overflow-hidden transform md:-translate-y-4">
-                    <div
-                        class="absolute top-0 right-0 bg-brand-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg">
-                        POPULAR</div>
+                <div class="bg-white rounded-2xl p-8 shadow-lg border border-brand-100 relative overflow-hidden transform md:-translate-y-4">
+                    <div class="absolute top-0 right-0 bg-brand-500 text-white text-[10px] font-bold px-3 py-1 rounded-bl-lg">POPULAR</div>
                     <div class="absolute top-0 left-0 w-full h-1 bg-brand-500"></div>
                     <h3 class="font-bold text-slate-800 text-lg mb-2">ツール・スクリプト開発</h3>
                     <p class="text-xs text-slate-400 mb-6">Python / スクレイピング / API連携</p>
                     <div class="mb-6">
-                        <span class="text-3xl font-bold text-slate-900 font-eng">30,000</span>
+                        <span class="text-3xl font-bold text-slate-900 font-eng">100,000</span>
                         <span class="text-sm text-slate-500 font-bold">円〜</span>
                     </div>
                     <div class="flex items-center gap-2 text-sm text-slate-600 bg-brand-50 rounded-lg p-3 mb-6">
@@ -981,82 +810,61 @@
                         <span class="font-bold text-brand-700">納期目安: 1週間〜</span>
                     </div>
                     <ul class="space-y-3 text-sm text-slate-500 mb-8">
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-brand-500 mt-0.5"></i>
-                            <span>Webデータ収集・分析</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-brand-500 mt-0.5"></i>
-                            <span>業務フロー自動化</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-brand-500 mt-0.5"></i>
-                            <span>API連携システム</span>
-                        </li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-brand-500 mt-0.5"></i><span>Webデータ収集・分析</span></li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-brand-500 mt-0.5"></i><span>業務フロー自動化</span></li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-brand-500 mt-0.5"></i><span>API連携システム</span></li>
                     </ul>
                 </div>
-
-                <!-- Plan 3 -->
-                <div
-                    class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 relative overflow-hidden group hover:border-brand-200 transition-colors">
+                <div class="bg-white rounded-2xl p-8 shadow-sm border border-slate-100 relative overflow-hidden group hover:border-brand-200 transition-colors">
                     <div class="absolute top-0 left-0 w-full h-1 bg-blue-500"></div>
                     <h3 class="font-bold text-slate-800 text-lg mb-2">Webシステム開発</h3>
                     <p class="text-xs text-slate-400 mb-6">Next.js / 業務アプリ / ダッシュボード</p>
                     <div class="mb-6">
-                        <span class="text-3xl font-bold text-slate-900 font-eng">100,000</span>
-                        <span class="text-sm text-slate-500 font-bold">円〜</span>
+                        <div>
+                            <span class="text-3xl font-bold text-slate-900 font-eng">300,000</span>
+                            <span class="text-sm text-slate-500 font-bold">円〜</span>
+                        </div>
+                        <p class="text-sm text-red-500 font-bold mt-2">※機能数により変動</p>
                     </div>
                     <div class="flex items-center gap-2 text-sm text-slate-600 bg-slate-50 rounded-lg p-3 mb-6">
                         <i class="ph-fill ph-clock text-blue-500"></i>
                         <span class="font-bold">納期目安: 3週間〜</span>
                     </div>
                     <ul class="space-y-3 text-sm text-slate-500 mb-8">
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-blue-500 mt-0.5"></i>
-                            <span>社内管理システム</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-blue-500 mt-0.5"></i>
-                            <span>顧客マイページ</span>
-                        </li>
-                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-blue-500 mt-0.5"></i>
-                            <span>SaaS型プロダクト開発</span>
-                        </li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-blue-500 mt-0.5"></i><span>社内管理システム</span></li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-blue-500 mt-0.5"></i><span>顧客マイページ</span></li>
+                        <li class="flex items-start gap-2"><i class="ph-fill ph-check-circle text-blue-500 mt-0.5"></i><span>SaaS型プロダクト開発</span></li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- 6. Profile -->
     <section id="profile" class="py-24 bg-white">
         <div class="max-w-4xl mx-auto px-6">
             <div class="flex flex-col md:flex-row items-center gap-12">
                 <div class="md:w-1/3 flex justify-center">
                     <div class="relative">
-                        <div
-                            class="w-48 h-48 rounded-full bg-slate-100 overflow-hidden border-4 border-white shadow-xl relative z-10 flex flex-col items-center justify-center text-slate-400">
-                            <!-- Placeholder for Profile Image -->
+                        <div class="w-48 h-48 rounded-full bg-slate-100 overflow-hidden border-4 border-white shadow-xl relative z-10 flex flex-col items-center justify-center text-slate-400">
                             <i class="ph-fill ph-user text-4xl mb-2"></i>
                             <span class="text-xs font-bold tracking-widest">準備中</span>
                         </div>
-                        <div
-                            class="absolute -bottom-4 -right-4 bg-white py-2 px-4 rounded-full shadow-lg border border-slate-100 z-20 flex items-center gap-2">
+                        <div class="absolute -bottom-4 -right-4 bg-white py-2 px-4 rounded-full shadow-lg border border-slate-100 z-20 flex items-center gap-2">
                             <span class="w-2 h-2 rounded-full bg-green-500 animate-pulse"></span>
                             <span class="text-xs font-bold text-slate-700">Available</span>
                         </div>
-                        <!-- Decorative Elements -->
                         <div class="absolute top-0 right-0 -mr-4 -mt-4 w-24 h-24 bg-brand-50 rounded-full -z-0"></div>
-                        <div class="absolute bottom-0 left-0 -ml-4 -mb-4 w-16 h-16 bg-yellow-50 rounded-full -z-0">
-                        </div>
+                        <div class="absolute bottom-0 left-0 -ml-4 -mb-4 w-16 h-16 bg-yellow-50 rounded-full -z-0"></div>
                     </div>
                 </div>
                 <div class="md:w-2/3">
                     <h2 class="text-sm font-bold text-brand-600 tracking-widest uppercase mb-2 font-eng">Profile</h2>
-                    <h3 class="text-2xl font-bold text-slate-900 mb-4">黒川 龍飛 <span
-                            class="text-lg font-normal text-slate-500 ml-2">Ryuhi Kurokawa</span></h3>
+                    <h3 class="text-2xl font-bold text-slate-900 mb-4">黒川 龍飛 <span class="text-lg font-normal text-slate-500 ml-2">Ryuhi Kurokawa</span></h3>
                     <div class="flex flex-wrap gap-3 mb-6">
-                        <span
-                            class="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
+                        <span class="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
                             <i class="ph-fill ph-map-pin"></i> ベトナム・ホーチミン在住
                         </span>
-                        <span
-                            class="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
+                        <span class="bg-slate-100 text-slate-600 text-xs font-bold px-3 py-1 rounded-full flex items-center gap-1">
                             <i class="ph-fill ph-clock"></i> 日本時間稼働 (JST)
                         </span>
                     </div>
@@ -1064,8 +872,7 @@
                         大学卒業後、会計事務所での実務経験を経てエンジニアへ転身。<br>
                         現在はベトナム・ホーチミン市を拠点に活動しています。<br>
                         急成長する東南アジアの熱気とスピード感を肌で感じながら、そのエネルギーを仕事にも還元。<br>
-                        時差は2時間のみで、日本時間の<span
-                            class="font-bold text-slate-800">9:00〜22:00</span>でフル稼働しています。日中のオンラインミーティングも全く問題ありません。
+                        時差は2時間のみで、日本時間の<span class="font-bold text-slate-800">9:00〜22:00</span>でフル稼働しています。日中のオンラインミーティングも全く問題ありません。
                     </p>
                     <p class="text-slate-600 leading-7">
                         「経理×エンジニア」というバックグラウンドを活かし、単なるシステム開発だけでなく、業務フローの整理から伴走できることが強みです。
@@ -1075,7 +882,29 @@
         </div>
     </section>
 
-    <!-- 7. Contact -->
+    <section class="py-16 bg-white">
+        <div class="max-w-3xl mx-auto px-6 text-center">
+            <h3 class="text-xl font-bold text-slate-900 mb-6">ビジネスの成長を共にするパートナーとして</h3>
+            <p class="text-slate-600 leading-8 mb-8">
+                システム開発は、単なる「作業のアウトソーシング」ではなく、<br class="hidden md:inline">
+                貴社のビジネスを次のステージへ進めるための「投資」です。<br>
+                <br>
+                だからこそ、私はクライアント様との「対話」と「信頼関係」を何よりも大切にしています。<br>
+                <br>
+                現在の課題がシステムで解決できるのか、それとも別の方法が良いのか。<br>
+                まずは専門家の視点から、フラットにお話しさせていただければと思います。
+            </p>
+            
+            <div class="inline-block bg-brand-50 rounded-2xl p-8 border border-brand-100">
+                <p class="font-bold text-brand-800 text-lg mb-2">初回オンライン相談（30分・無料）</p>
+                <p class="text-sm text-slate-600">
+                    現状の課題感や、実現したいゴールについてお聞かせください。<br>
+                    貴社にとって最適な選択肢を、一緒に考えさせていただきます。
+                </p>
+            </div>
+        </div>
+    </section>
+
     <section id="contact" class="py-24 bg-slate-50 border-t border-slate-200">
         <div class="max-w-2xl mx-auto px-6">
             <div class="text-center mb-12">
@@ -1088,8 +917,7 @@
             </div>
 
             <div class="bg-white rounded-2xl p-10 shadow-card text-center">
-                <div
-                    class="w-16 h-16 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
+                <div class="w-16 h-16 bg-brand-50 text-brand-600 rounded-2xl flex items-center justify-center mx-auto mb-6">
                     <i class="ph-fill ph-envelope-simple text-3xl"></i>
                 </div>
                 <h3 class="text-xl font-bold text-slate-800 mb-2">メールでのお問い合わせ</h3>
@@ -1106,7 +934,6 @@
         </div>
     </section>
 
-    <!-- Footer -->
     <footer class="bg-slate-900 py-12 border-t border-slate-800">
         <div class="max-w-5xl mx-auto px-6 text-center">
             <p class="text-xs text-slate-500 font-eng tracking-wider">
@@ -1116,5 +943,5 @@
     </footer>
 
 </body>
-
 </html>
+
